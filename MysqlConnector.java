@@ -1,5 +1,7 @@
 import java.sql.*;
 
+//code by Maoming Tang
+
 public class MysqlConnector {
     private Connection conn = null;
     /**
