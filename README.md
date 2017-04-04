@@ -8,7 +8,7 @@ Feiyue Wu fxw160230@utdallas.edu
 
 Maoming Tang  mxt162330@utdallas.edu
 
-Most Appropriate Facility: code by Maoming Tang
+<1> Most Appropriate Facility: code by Maoming Tang
 
 Firstly, I will use a customer’s ID to query data in mysql. If I find a preference, I return it.
 
@@ -16,7 +16,7 @@ Then check the postal code in mysql. If I can find a facility locate in the spec
 
 To improve it, I will use cache to optimize multi-users scenario.
 
-Coding Exercises - Problem statements (Node.js or Ruby)(30 points)
+<2> Coding Exercises - Problem statements (Node.js or Ruby)(30 points)
 code by Maoming Tang
 I use Ruby to finish these tasks:
 1.connect database table
@@ -24,18 +24,18 @@ I use Ruby to finish these tasks:
 3.get information from google api(use a hashset to prevent a location from calling twice)
 4.insert all information into table(including lat and lng)
 
-Extract Text from PDF/Image (20 points)
+<3> Extract Text from PDF/Image (20 points)
 code by Maoming Tang
 I use aspose api and tess4j to parse pdf and image respectively.
 To apply them, you have to download jar files and import them into the project.
 
 
-License Keys: code by Feiyue Wu
+<4> License Keys: code by Feiyue Wu
 
 I traverse the string from the end and use StringBuilder to append the character. Each time, the length of the StringBuilder would be compared with the required
 length k.
 
-Variation of Most Appropriate Yard: code by Feiyue Wu
+<5> Variation of Most Appropriate Yard: code by Feiyue Wu
 
 First I use map to store each city with its coordinates.
 
@@ -43,7 +43,7 @@ Then I use priority queue to store each city point. The order of them would be t
 
 After traverse all data, use the list to store the result and return it.
  
-Covert String to Integer: code by Feiyue Wu
+<6> Covert String to Integer: code by Feiyue Wu
 
 I use a boolean variable to mark if the number is negative
 Then I iterate the string use the character minus the '0' to get the int value of each char
