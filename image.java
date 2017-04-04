@@ -6,6 +6,8 @@ import net.sourceforge.tess4j.Tesseract;
 import net.sourceforge.tess4j.Tesseract1;
 import net.sourceforge.tess4j.TesseractException;
 
+//code by Maoming Tang
+
 public class image {
 	public static void main(String[] args){
 		//Open the image file
