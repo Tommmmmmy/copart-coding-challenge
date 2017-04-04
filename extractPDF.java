@@ -3,6 +3,8 @@ import com.aspose.pdf.TextExtractionOptions;
 import com.aspose.pdf.devices.TextDevice;
 import com.aspose.words.Document;
 
+//code by Maoming Tang
+
 public class extractPDF {
 	public static void main(String[] args) throws Exception{
 		// open document
